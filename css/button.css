@@ -23,6 +23,12 @@ a.button1 {
   text-decoration: none;
   top: 50%;
   left: 37%;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none; 
 }
 
 a.button1:hover {
