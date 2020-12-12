@@ -33,7 +33,7 @@ a.button1:hover {
 }
 
 a.button1:active {
-  -webkit-box-shadow: inset rgba(0, 0, 0, 0.701961) 0px 7px 12px,rgba(0, 0, 0, 0.701961) 0px 2px 12px  ;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.701961) 0px 2px 1px,rgba(0, 0, 0, 0.701961) 0px 2px 12px;
   text-shadow: rgb(0, 0, 0) 0px -2px 1px;
-  margin-top: 1px;
+  margin-top: -22px;
 }
