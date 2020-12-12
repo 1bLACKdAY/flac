@@ -9,7 +9,7 @@
   <meta name="description" lang="en" content="Flac audio"> <!-- Описание страницы сайта на английском -->
   <meta name="author" content="bLACKdAY"> <!-- Автор -->
   <link rel="stylesheet" href="css/button.css"> <!-- Путь к button.css -->
-  <script src="script/script.js"></script> <!-- Путь к script.js -->
+  <script src="script/data.js"></script> <!-- Путь к data.js -->
 </head>
  
 <body bgcolor="#121212" 
@@ -21,4 +21,12 @@
  <a href="#" class="button1">Download</a>  
 </body>
 
+<div id="current_date_time_block2"></div>
+
+<script>
+setInterval(function () {
+        document.getElementById('current_date_time_block2').innerHTML = date_time();
+    }, 1000);
+</script>
+ 
 </html>
