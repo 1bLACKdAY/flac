@@ -17,7 +17,7 @@ a.button1 {
   letter-spacing: 4px;
   text-shadow: rgb(0, 0, 0) 0px 1px 1px;
   line-height: 30px;
-  position: center;
+  position: absolute;
   margin: 20px auto;
   text-align: center;
   text-decoration: none;
