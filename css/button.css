@@ -32,7 +32,6 @@ a.button1:hover {
 }
 
 a.button1:active {
-  -webkit-box-shadow: inset rgba(0, 0, 0, 0.701961) 0px 2px 1px,rgba(0, 0, 0, 0.701961) 0px 2px 12px;
-  text-shadow: rgb(0, 0, 0) 0px -2px 1px;
-  margin-top: -22px;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.101961) 0px 2px 1px,rgba(0, 0, 0, 0.701961) 0px 4px 12px;
+  text-shadow: rgb(0, 0, 0, 0.701961) 0px 0px 8px;
 }
