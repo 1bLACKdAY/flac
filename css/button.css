@@ -17,13 +17,10 @@ a.button1 {
   letter-spacing: 4px;
   text-shadow: rgb(0, 0, 0) 0px 1px 1px;
   line-height: 30px;
-  position: absolute;
-  margin: 20px auto;
+  position: center;
+  margin: 15% 0px 0px 38%;
   text-align: center;
   text-decoration: none;
-  top: 35%;
-  left: 25%;
-  right: 25%;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
