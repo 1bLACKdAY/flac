@@ -1,4 +1,4 @@
-a.buttonns {
+a.button1 {
   padding: 3px 14px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.701961) 0px 5px 12px;
    -webkit-transform-origin: 50% 1px;
@@ -22,12 +22,12 @@ a.buttonns {
   text-align: center;
   text-decoration:none;
 }
-a.buttonns:hover {
+a.button1:hover {
   cursor: pointer;
   opacity: 0.9;
   border-width: 1px 7px 1px 1px;
 }
-a.buttonns:active {
+a.button1:active {
 -webkit-box-shadow:inset rgba(0, 0, 0, 0.701961) 0px 7px 12px,rgba(0, 0, 0, 0.701961) 0px 2px 12px  ;
 text-shadow: rgb(0, 0, 0) 0px -2px 1px;
 margin-top: 1px;
