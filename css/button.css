@@ -11,16 +11,19 @@ a.button1 {
   color: #555;
   display: block;
   width: 90px;
-  font-family: Open Sans, Sans-serif;
+  font-family: gautami, Open Sans, Sans-serif;
   border-radius: 8px;
   font-size: 13px;
   letter-spacing: 4px;
   text-shadow: rgb(0, 0, 0) 0px 1px 1px;
   line-height: 30px;
-  position: center;
-  margin: 15% 0px 0px 38.5%;
+  position: absolute;
   text-align: center;
   text-decoration: none;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: calc(50% - 40px);
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
@@ -31,11 +34,30 @@ a.button1 {
 
 a.button1:hover {
   cursor: pointer;
-  opacity: 0.9;
-  border-width: 1px 7px 1px 1px;
+  opacity: 1;
+  border-width: 1px 7px 1px 4px;
 }
 
 a.button1:active {
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.101961) 0px 2px 1px,rgba(0, 0, 0, 0.701961) 0px 4px 12px;
   text-shadow: rgb(0, 0, 0, 0.701961) 0px 0px 8px;
 }
+
+.box {
+	background-color: #171717;
+	border-radius: 20px;
+	border-color: rgba(255, 20, 57, 0.1) rgba(255, 20, 57, 0.1) rgba(255, 20, 57, 0.1) rgba(255, 20, 57, 0.1);
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	max-width: 600px;
+	height: 340px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: calc(50% - 170px);
+	
+}	
