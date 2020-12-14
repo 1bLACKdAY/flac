@@ -4,32 +4,34 @@
 
  <head>
   <meta charset="utf-8"> <!-- Объявляет кодировку страницы -->
-  <title>FLAC AUDIO</title>  <!-- Название страницы -->
-  <meta name="description" lang="ru" content="Флак аудио"> <!-- Описание страницы сайта на русском -->
-  <meta name="description" lang="en" content="Flac audio"> <!-- Описание страницы сайта на английском -->
+  <meta name="viewport" content="width=device-width">
+  <title>Something</title>  <!-- Название страницы -->
   <meta name="author" content="bLACKdAY"> <!-- Автор -->
-  <link rel="stylesheet" href="css/button.css"> <!-- Путь к button.css -->
-  <link rel="stylesheet" href="css/txt.css"> <!-- Путь к txt.css -->
-  <script src="js/data.js"></script> <!-- Путь к data.js -->
+  <link rel="stylesheet" href="css/main.css"> <!-- Путь к button.css -->
+  <script src="js/main.js"></script> <!-- Путь к data.js -->
  </head>
 
  <body bgcolor="#0f0f0f" text="#fff">
-    <div class="flex-center">
-	 <div id="current_date_time_block2" align="center" class="unselectable" style="font-size:14px; font-family: cursive;"></div>
-	</div>
-	   
-	<div class="box">
-	 <div class="boxtextmain">
-	  <p class="txtmain">MAIN BUTTON</p>
-	 </div>
-	 <a class="button1">Download</a>
+		
+    <div id="all">		
+		<div id="head">
+		  <div id="clock">
+		    <div id="current_date_time_block2" class="unselectable" style="font-size:14px; font-family: cursive;"></div>
+		      <script>setInterval(function () {
+		        document.getElementById('current_date_time_block2').innerHTML = date_time(); 
+			  }, 100);
+			  </script>
+		  </div>
+		</div>
+		<div class="centerinfo">
+		  <div class="infobox">
+		    <div class="txtmain unselectable">
+			  <p></p>
+			</div>
+		  </div>
+		</div>
 	</div>
  </body>
-
- <script>
-  setInterval(function () {
-  document.getElementById('current_date_time_block2').innerHTML = date_time();
-  }, 100);
- </script>
  
 </html>
+
